@@ -13,10 +13,10 @@
 			<a class="nav-link" href="about.php">About</a>
 			</li>
 			</ul>
-			<form class="form-inline">
+			<form class="form-inline" action="authenticate.php" method="post">
 				<div class="form-group">
-					<input type="username" class="form-control mr-1" placeholder="username" id="username">
-					<input type="password" class="form-control mr-1" placeholder="password" id="password">
+					<input type="username" class="form-control mr-1" placeholder="username" name="username">
+					<input type="password" class="form-control mr-1" placeholder="password" name="password">
 					<button type="submit" class="btn btn-secondary text-light">Sign In</button>
 				</div>
 		</nav>
